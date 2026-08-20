@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+
+# Training and evaluation products
+runs/
+artifacts/
+reports/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.jsonl
+*.log
+*.zip
+assets/*.json
+
+# Local exploration notes and machine-specific launchers
+EXPERIMENT_LOG.md
+scripts/*bigboy*.sh
+scripts/sync_to_bigboy.sh
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
